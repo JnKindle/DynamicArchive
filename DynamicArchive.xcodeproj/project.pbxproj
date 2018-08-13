@@ -15,6 +15,7 @@
 		D7B2E2F621212FF9006125EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2F521212FF9006125EB /* main.m */; };
 		D7B2E30021212FF9006125EB /* DynamicArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2FF21212FF9006125EB /* DynamicArchiveTests.m */; };
 		D7B2E30B21212FF9006125EB /* DynamicArchiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E30A21212FF9006125EB /* DynamicArchiveUITests.m */; };
+		D7B2E31A21213082006125EB /* BaseDynamicArchiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D7B2E30621212FF9006125EB /* DynamicArchiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicArchiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2E30A21212FF9006125EB /* DynamicArchiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicArchiveUITests.m; sourceTree = "<group>"; };
 		D7B2E30C21212FF9006125EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B2E31821213082006125EB /* BaseDynamicArchiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDynamicArchiveModel.h; sourceTree = "<group>"; };
+		D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDynamicArchiveModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D7B2E2E521212FF7006125EB /* DynamicArchive */ = {
 			isa = PBXGroup;
 			children = (
+				D7B2E31B2121309B006125EB /* DynamicArchiveModel */,
 				D7B2E2E621212FF7006125EB /* AppDelegate.h */,
 				D7B2E2E721212FF7006125EB /* AppDelegate.m */,
 				D7B2E2E921212FF7006125EB /* ViewController.h */,
@@ -130,6 +134,15 @@
 				D7B2E30C21212FF9006125EB /* Info.plist */,
 			);
 			path = DynamicArchiveUITests;
+			sourceTree = "<group>";
+		};
+		D7B2E31B2121309B006125EB /* DynamicArchiveModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2E31821213082006125EB /* BaseDynamicArchiveModel.h */,
+				D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */,
+			);
+			path = DynamicArchiveModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				D7B2E2EB21212FF7006125EB /* ViewController.m in Sources */,
 				D7B2E2F621212FF9006125EB /* main.m in Sources */,
 				D7B2E2E821212FF7006125EB /* AppDelegate.m in Sources */,
+				D7B2E31A21213082006125EB /* BaseDynamicArchiveModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,15 +447,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
 				INFOPLIST_FILE = DynamicArchive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.DynamicArchive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnKindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,15 +467,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
 				INFOPLIST_FILE = DynamicArchive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.DynamicArchive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnKindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
