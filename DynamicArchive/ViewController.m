@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "LoginController.h"
+
 @interface ViewController ()
 
 @end
@@ -16,13 +18,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+
+
+
+/**
+ 检查登录
+ */
+- (void)checkLogin
+{
+    if (![UserManager manager].isLogin) {
+        //未登录
+        LoginController *vc = [[LoginController alloc] init];;
+        UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+        [self.navigationController presentViewController:navi animated:YES completion:nil];
+    }
+    
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
 
 

@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7B2E2E821212FF7006125EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2E721212FF7006125EB /* AppDelegate.m */; };
-		D7B2E2EB21212FF7006125EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2EA21212FF7006125EB /* ViewController.m */; };
+		D79353F22122B15600BC77E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79353EC2122B15600BC77E4 /* AppDelegate.m */; };
+		D79353F32122B15600BC77E4 /* BaseDynamicArchiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79353F02122B15600BC77E4 /* BaseDynamicArchiveModel.m */; };
+		D79354012122B23E00BC77E4 /* GlobalFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = D79354002122B23E00BC77E4 /* GlobalFunction.m */; };
+		D793540A2122B85B00BC77E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79354042122B85B00BC77E4 /* ViewController.m */; };
+		D793540B2122B85B00BC77E4 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79354072122B85B00BC77E4 /* UserModel.m */; };
+		D793540F2122BA5000BC77E4 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D793540E2122BA5000BC77E4 /* UserManager.m */; };
+		D79354122122BD9C00BC77E4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79354112122BD9C00BC77E4 /* LoginController.m */; };
 		D7B2E2EE21212FF7006125EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2E2EC21212FF7006125EB /* Main.storyboard */; };
 		D7B2E2F021212FF9006125EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B2E2EF21212FF9006125EB /* Assets.xcassets */; };
 		D7B2E2F321212FF9006125EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B2E2F121212FF9006125EB /* LaunchScreen.storyboard */; };
 		D7B2E2F621212FF9006125EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2F521212FF9006125EB /* main.m */; };
 		D7B2E30021212FF9006125EB /* DynamicArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E2FF21212FF9006125EB /* DynamicArchiveTests.m */; };
 		D7B2E30B21212FF9006125EB /* DynamicArchiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E30A21212FF9006125EB /* DynamicArchiveUITests.m */; };
-		D7B2E31A21213082006125EB /* BaseDynamicArchiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D79353EB2122B15600BC77E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D79353EC2122B15600BC77E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D79353EF2122B15600BC77E4 /* BaseDynamicArchiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDynamicArchiveModel.h; sourceTree = "<group>"; };
+		D79353F02122B15600BC77E4 /* BaseDynamicArchiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDynamicArchiveModel.m; sourceTree = "<group>"; };
+		D79353FD2122B1DE00BC77E4 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		D79353FF2122B23E00BC77E4 /* GlobalFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunction.h; sourceTree = "<group>"; };
+		D79354002122B23E00BC77E4 /* GlobalFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunction.m; sourceTree = "<group>"; };
+		D79354042122B85B00BC77E4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D79354052122B85B00BC77E4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D79354072122B85B00BC77E4 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		D79354082122B85B00BC77E4 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		D793540D2122BA5000BC77E4 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		D793540E2122BA5000BC77E4 /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		D79354102122BD9C00BC77E4 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		D79354112122BD9C00BC77E4 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		D7B2E2E321212FF7006125EB /* DynamicArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7B2E2E621212FF7006125EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7B2E2E721212FF7006125EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7B2E2E921212FF7006125EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7B2E2EA21212FF7006125EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7B2E2ED21212FF7006125EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7B2E2EF21212FF9006125EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B2E2F221212FF9006125EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +67,6 @@
 		D7B2E30621212FF9006125EB /* DynamicArchiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicArchiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2E30A21212FF9006125EB /* DynamicArchiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicArchiveUITests.m; sourceTree = "<group>"; };
 		D7B2E30C21212FF9006125EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7B2E31821213082006125EB /* BaseDynamicArchiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDynamicArchiveModel.h; sourceTree = "<group>"; };
-		D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDynamicArchiveModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D79353E92122B15600BC77E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D79353FE2122B23E00BC77E4 /* Global */,
+				D79353EA2122B15600BC77E4 /* AppDelegate */,
+				D79353ED2122B15600BC77E4 /* Base */,
+				D79353F12122B15600BC77E4 /* Src */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D79353EA2122B15600BC77E4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D79353EB2122B15600BC77E4 /* AppDelegate.h */,
+				D79353EC2122B15600BC77E4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D79353ED2122B15600BC77E4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D79353EE2122B15600BC77E4 /* DynamicArchiveModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D79353EE2122B15600BC77E4 /* DynamicArchiveModel */ = {
+			isa = PBXGroup;
+			children = (
+				D79353EF2122B15600BC77E4 /* BaseDynamicArchiveModel.h */,
+				D79353F02122B15600BC77E4 /* BaseDynamicArchiveModel.m */,
+			);
+			path = DynamicArchiveModel;
+			sourceTree = "<group>";
+		};
+		D79353F12122B15600BC77E4 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				D79354022122B85B00BC77E4 /* User */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		D79353FE2122B23E00BC77E4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D79353FF2122B23E00BC77E4 /* GlobalFunction.h */,
+				D79354002122B23E00BC77E4 /* GlobalFunction.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D79354022122B85B00BC77E4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D793540C2122B91F00BC77E4 /* Manager */,
+				D79354032122B85B00BC77E4 /* Controller */,
+				D79354062122B85B00BC77E4 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D79354032122B85B00BC77E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D79354102122BD9C00BC77E4 /* LoginController.h */,
+				D79354112122BD9C00BC77E4 /* LoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D79354062122B85B00BC77E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D79354072122B85B00BC77E4 /* UserModel.m */,
+				D79354082122B85B00BC77E4 /* UserModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D793540C2122B91F00BC77E4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D793540D2122BA5000BC77E4 /* UserManager.h */,
+				D793540E2122BA5000BC77E4 /* UserManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		D7B2E2DA21212FF7006125EB = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +208,14 @@
 		D7B2E2E521212FF7006125EB /* DynamicArchive */ = {
 			isa = PBXGroup;
 			children = (
-				D7B2E31B2121309B006125EB /* DynamicArchiveModel */,
-				D7B2E2E621212FF7006125EB /* AppDelegate.h */,
-				D7B2E2E721212FF7006125EB /* AppDelegate.m */,
-				D7B2E2E921212FF7006125EB /* ViewController.h */,
-				D7B2E2EA21212FF7006125EB /* ViewController.m */,
+				D79353E92122B15600BC77E4 /* Classes */,
 				D7B2E2EC21212FF7006125EB /* Main.storyboard */,
 				D7B2E2EF21212FF9006125EB /* Assets.xcassets */,
 				D7B2E2F121212FF9006125EB /* LaunchScreen.storyboard */,
 				D7B2E2F421212FF9006125EB /* Info.plist */,
+				D79354052122B85B00BC77E4 /* ViewController.h */,
+				D79354042122B85B00BC77E4 /* ViewController.m */,
+				D79353FD2122B1DE00BC77E4 /* Prefix.pch */,
 				D7B2E2F521212FF9006125EB /* main.m */,
 			);
 			path = DynamicArchive;
@@ -134,15 +237,6 @@
 				D7B2E30C21212FF9006125EB /* Info.plist */,
 			);
 			path = DynamicArchiveUITests;
-			sourceTree = "<group>";
-		};
-		D7B2E31B2121309B006125EB /* DynamicArchiveModel */ = {
-			isa = PBXGroup;
-			children = (
-				D7B2E31821213082006125EB /* BaseDynamicArchiveModel.h */,
-				D7B2E31921213082006125EB /* BaseDynamicArchiveModel.m */,
-			);
-			path = DynamicArchiveModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B2E2EB21212FF7006125EB /* ViewController.m in Sources */,
 				D7B2E2F621212FF9006125EB /* main.m in Sources */,
-				D7B2E2E821212FF7006125EB /* AppDelegate.m in Sources */,
-				D7B2E31A21213082006125EB /* BaseDynamicArchiveModel.m in Sources */,
+				D79354122122BD9C00BC77E4 /* LoginController.m in Sources */,
+				D793540F2122BA5000BC77E4 /* UserManager.m in Sources */,
+				D79354012122B23E00BC77E4 /* GlobalFunction.m in Sources */,
+				D793540B2122B85B00BC77E4 /* UserModel.m in Sources */,
+				D79353F22122B15600BC77E4 /* AppDelegate.m in Sources */,
+				D79353F32122B15600BC77E4 /* BaseDynamicArchiveModel.m in Sources */,
+				D793540A2122B85B00BC77E4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +548,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DynamicArchive/Prefix.pch";
 				INFOPLIST_FILE = DynamicArchive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +569,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DynamicArchive/Prefix.pch";
 				INFOPLIST_FILE = DynamicArchive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
